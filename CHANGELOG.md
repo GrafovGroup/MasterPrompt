@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.2 — November 22, 2026
+
+- Added people-first E-E-A-T instructions to section 3 for new projects, existing sites and derived master prompts. Practical examples distinguish the evidence needs of an enquiry page, a comparison, a case study and high-impact guidance.
+- Expanded the existing claims record and bilingual quality checks in sections 16–17 to cover attribution, methods, primary evidence, publication permission and the review actually performed.
+- Based on [Google Search Central’s guidance on helpful, reliable content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), consulted November 22, 2026.
+
 ## 3.1 — November 8, 2026
 
 Incorporates practical lessons from improving [Waving.ca](https://waving.ca) into the existing universal workflow. This release records implementation and verification lessons, not measured ranking or conversion gains.

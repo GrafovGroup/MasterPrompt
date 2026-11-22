@@ -2,7 +2,7 @@
 
 The canonical version of the reusable website launch and improvement prompt is [MASTER_PROMPT.md](MASTER_PROMPT.md).
 
-Current version: **3.1**, updated November 8, 2026. See [CHANGELOG.md](CHANGELOG.md) for the changes and their practical basis.
+Current version: **3.2**, updated November 22, 2026. See [CHANGELOG.md](CHANGELOG.md) for the changes and their practical basis.
 
 ## Use the prompt
 
@@ -12,7 +12,11 @@ Current version: **3.1**, updated November 8, 2026. See [CHANGELOG.md](CHANGELOG
 
 Existing approved brand decisions and the current project's explicit instructions take precedence over universal defaults. Choose the appropriate execution mode for a new build, an existing brand, a resumed project, a focused edit or strategy-only work. A focused edit uses the relevant requirements; it does not restart the entire launch process.
 
-## What's new in version 3.1
+## What's new in version 3.2
+
+The universal prompt now applies Google’s E-E-A-T guidance to website work and to the project prompts derived from it. Section 3 explains how to identify the audience’s task, attribute work accurately, document first-hand experience and source consequential claims. Sections 16 and 17 use the existing claims record and bilingual QA to verify the evidence. The level of review depends on the page’s purpose and the consequences of an error. [Google Search Central guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+
+## Retained from version 3.1
 
 Lessons from improving Waving.ca are integrated into the relevant sections:
 
@@ -27,7 +31,7 @@ These are reusable workflow lessons. Waving's visual identity, specific inventor
 
 ## Existing research-to-implementation cycle
 
-Version 3.1 retains the five-competitor cycle introduced in version 3.0:
+The prompt retains the five-competitor cycle introduced in version 3.0:
 
 - Research five relevant high-ranking competitors using current, query-specific Google and Bing evidence where available.
 - Compare SEO, AEO, desktop/mobile UX, conversion journeys, products, services and trust evidence against the actual existing site.

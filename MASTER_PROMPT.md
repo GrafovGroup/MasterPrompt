@@ -1,6 +1,6 @@
-# GRAFOV GROUP — UNIVERSAL CODEX WEBSITE LAUNCH MASTER PROMPT v3.1
+# GRAFOV GROUP — UNIVERSAL CODEX WEBSITE LAUNCH MASTER PROMPT v3.2
 
-Updated: November 8, 2026 · Owner: Dmitry Grafov / Grafov Group
+Updated: November 22, 2026 · Owner: Dmitry Grafov / Grafov Group
 
 Use this entire document as one Codex project instruction. Complete the project inputs first; leave optional inputs blank when unknown. It is self-contained and does not assume access to earlier conversations. For new projects, this version supersedes older universal defaults. Explicit instructions for the current brand, approved assets, and later owner decisions take precedence over these defaults, subject to the environment's governing instructions.
 
@@ -65,6 +65,15 @@ Never invent testimonials, ratings, case studies, customer logos, awards, operat
 Treat Canada-wide reach as a business objective and enquiry scope. Distinguish accepting an enquiry, confirming delivery capability, having an operating base, and maintaining a physical location. Do not substitute a qualification sentence for establishing whether the advertised offering can actually be delivered.
 
 Default commercial conversion is REQUEST A QUOTE and CALL NOW. Keep public pricing, shopping carts, checkout, and customer accounts out of scope unless approved or essential to the selected business model. Explain relevant cost factors without inventing price ranges.
+
+### People-first publishing and E-E-A-T
+
+Apply Google’s experience, expertise, authoritativeness and trustworthiness (E-E-A-T) guidance to the reader’s task. Trust takes priority. Treat E-E-A-T as a way to assess content quality. Google uses multiple ranking signals and does not assign a single E-E-A-T ranking factor. Carry this guidance into project-specific master prompts and content briefs. [Google Search Central guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+
+- **Why would someone use this page?** Name the decision or action it supports. An enquiry page can establish trust with an accurate accountable business, clear terms and a working contact route. A comparison should explain the criteria and trade-offs that help a buyer choose.
+- **Who stands behind the answer?** Identify the responsible organisation. Where readers reasonably expect a byline or specialist review, name the actual contributor, explain their relevant background and link to a verifiable profile or credential when useful. Credit reviewers only for material they reviewed.
+- **How do we know?** Ground first-hand accounts in the work actually done. For a test or case study, describe the method, scope and limitations, and use approved records or original media. Label illustrative examples and generated depictions. Explain material automation when the production method matters to the reader.
+- **Which source supports this claim?** Link consequential external facts to the relevant primary authority where readers need them. Keep private records and client permissions in the claims record. For health, safety, financial, legal or other high-impact guidance, use current sources applicable to the jurisdiction and qualified review when the conclusion requires professional judgment. Narrow or omit conclusions beyond the available evidence.
 
 ## 4. PHASE 0 — RESEARCH AND LAUNCH STRATEGY
 
@@ -357,7 +366,7 @@ Maintain a small coherent set of project records; reuse existing equivalents ins
 | COMPETITIVE_AUDIT.md or existing equivalent | Dated queries and ranking evidence, five-site comparison, our baseline, prioritized changes, business capability gaps, implementation decisions and acceptance evidence |
 | BRAND_GUIDE.md | Current approved identity and exact asset/variant, tokens, typography, control styling, media direction; superseded choices clearly identified |
 | SITE_MAP.md | Page purposes, EN/FR mapping, planned/published/indexable status, location coverage |
-| SOURCES_AND_CLAIMS.md | Source URLs, verification dates, material claims, reviewer needs, media provenance |
+| SOURCES_AND_CLAIMS.md | Material claim and affected page, source or private evidence reference, verification date, scope, permission to publish, actual reviewer or outstanding review, media provenance |
 | DECISIONS.md | Owner decisions and durable overrides with dates |
 | LAUNCH_CHECKLIST.md | Evidence-backed passes, failures, blockers, external setup |
 | DEPLOYMENT.md | Build/release/rollback, repository and Site/host mapping, DNS/email dependencies |
@@ -376,6 +385,7 @@ When recovering a site, inspect the existing remote source and platform records 
 
 Scale checks to the change. New launches and broad structural changes need the full applicable review below; focused edits need affected components, routes, languages and release checks. Shared header, button or form changes affect more than the page where they were previewed. Reuse meaningful existing checks; do not create busywork tests for decorative choices or repeat passing checks without a new change, failure or unresolved concern. Keep evidence tied to the exact revision being released.
 
+- On changed public content, trace a material claim to its evidence and inspect the attribution a reader sees. Check every high-impact claim for the relevant source, jurisdiction and review. Confirm both languages preserve scope, uncertainty, credits and illustrative labels. Record any unsupported claim removed or awaiting evidence in the existing claims record.
 - Selected competitive improvements have a source, stated customer benefit, implementation decision and acceptance evidence. Proposed capabilities remain private until confirmed; deferred items do not silently become public offers.
 - Production build and applicable lint/type checks pass. Test important branching or data-processing behavior where it exists.
 - Crawl every generated public route for status, broken links/assets, metadata presence, locale relationships, canonical/indexing controls, and sitemap membership. Check link semantics and offering context, not only HTTP status.
